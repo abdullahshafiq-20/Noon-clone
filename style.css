@@ -162,6 +162,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 /* .nav-deals {
@@ -194,15 +196,14 @@ body {
 .nav-deals {
   width: 31%;
   height: auto;
-  border: 1px solid #000;
   display: flex; /* Add flex display to align the images horizontally */
   flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+  background-color: white;
 }
 
 .nav-deal-1 {
   width: 50%; /* Each image will take 50% of the container's width */
   height: 200px;
-  border: 1px solid #000;
   padding: 10px;
 }
 
@@ -217,7 +218,6 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  border: 1px solid #000;
 }
 
 .nav-deal-text h3 {
@@ -249,7 +249,6 @@ body {
 .nav-deal-2 {
   width: 50%; /* Each image will take 50% of the container's width */
   height: 200px;
-  border: 1px solid #000;
   border-radius: 5px;
   padding: 5px;
   display: flex;
@@ -277,7 +276,6 @@ body {
 .nav-deal-inner-1
 {
   width: 100%;
-  border: 1px solid #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,7 +297,6 @@ body {
   justify-content:center;
   align-items: center;
   padding: 5px;
-  border: 1px solid #000;
   background-color: #ececec;
   border-radius : 0px 0px 6px 6px;
 }
@@ -333,4 +330,120 @@ body {
   text-decoration: none;
   margin-left: 10px;
 
+}
+
+.timer
+{
+  background-color: #ececec;
+  padding: 0px 20px 0px 20px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 6px 0px 6px 0px;
+}
+.deal-button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px 0px 5px 0px;
+
+}
+
+.nav-rec-cards
+{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  position: relative;
+}
+.card-img
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px 5px 0px;
+
+}
+.card-img img{
+  width: 80%;
+  height: 100%;
+  background-color: #fafafa;
+
+
+}
+
+.card-text
+{
+  font-size: 12px;
+  font-weight: 600;
+}
+.card-ratting
+{
+  background-color: #38ae04;
+  color: white;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px 0px 5px;
+  margin: 10px 0px 10px 0px;
+  font-size: 12px;
+}
+.card-ratting i{
+  font-size: 10px;
+  padding: 0%;
+  margin: 0%;
+}
+.card-footer
+{
+  width: 100%;
+  height: auto;
+}
+.tag {
+  position: absolute;
+  top: 15px; /* Adjust the value as needed to control the vertical position */
+  left: 15px; /* Adjust the value as needed to control the horizontal position */
+  background-color: #4a4a4a; /* Set the background color for the tag */
+  color: #ffffff; /* Set the text color for the tag */
+  padding: 0px 10px; /* Adjust the padding as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: bold;
+  border-radius: 50px; /* Add rounded corners */
+  z-index: 1; /* Ensure the tag appears above the image */
+}
+.nav-school
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+.nav-school-img
+{
+  width: 15%;
+  height: auto;
+  border: 1px solid #000;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.nav-school img{
+  width: 9%;
+  height: 8%;
+  object-fit: cover;
 }
