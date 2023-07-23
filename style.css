@@ -447,3 +447,34 @@ body {
   height: 8%;
   object-fit: cover;
 }
+
+.nav-deals-noon
+{
+  background-color: #e1effa;
+}
+
+.nav-noon-rem
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5px 5px 15px 5px;
+}
+.nav-noon-rem img{
+  width: 23%;
+  height: auto;
+  object-fit: cover;
+}
+
+.view-all-button
+{
+  padding: 7px 15px 7px 15px;
+  border:1px solid #404553;
+  color: #404553;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-top: 10px;
+}
