@@ -9,12 +9,19 @@ body {
   background-color: #f7f7fa;
 }
 
+
+/* NVABAR STARTED  */
 .navbar {
+  width: 100%;
+  height: auto;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  padding: 2px 50px 2px 20px;
+  flex-wrap: wrap;
   background-color: #feee00;
+  margin: 0%;
+  padding: 0%;
+  gap: 0%;
 }
 
 .navbar hr {
@@ -31,17 +38,24 @@ body {
   color: rgba(64, 69, 63);
   list-style: none;
 }
-
+.nav-logo 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: auto;
+}
 .nav-logo img {
-  width: 80px;
-  height: 40px;
+  width: 70%;
+  height: auto;
+  object-fit: cover;
 }
 
 .nav-location {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
 
 }
 
@@ -50,18 +64,128 @@ body {
   justify-content: center;
 }
 
+.nav-search
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.nav-search form
+{
+  width: 100%;
+}
+
 .nav-search form [type="text"] {
+  width: 100%;
   border-radius: 5px;
   border: none;
   padding: 8px;
   margin: 0px 10px 0px 10px;
   margin: 10px 0px 10px 0px;
 }
+.navbar-2{
+  display: none;
+}
+/* @media screen and (max-width: 700px)
+{
+  #nav
+  {
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+} */
 
+@media screen and (max-width: 500px)
+{
+
+  #nav
+  {
+    display: none;
+  }
+  .navbar-2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    gap: 0%;
+    flex-wrap: wrap;
+  }
+
+  .nav-logo{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .nav-logo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .nav-search
+  {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .nav-search form [type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+  }
+
+  .nav-location-text
+  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  .nav-location-text img {
+    margin-left: 5px;
+    width: 5%;
+    height: auto;
+    object-fit: cover;
+  }
+  .nav-add
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-add img {
+    width: 80%;
+    height: 40px;
+    background-size: cover;
+  }
+
+}
+/* NAVBAR ENDED  */
+
+
+
+/* NAVBAR  SECOND STARTED  */
 .nav-second {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-second ul {
@@ -69,6 +193,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .nav-second ul li {
@@ -82,6 +207,13 @@ body {
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .nav-second
+  {
+    display: none;
+  }
+
 }
 
 /* .nav-second ul li img{
@@ -101,8 +233,38 @@ body {
   width: 150px;
   height: 30px;
 }
+#banner
+{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+
+  #banner-main
+  {
+    display: none;
+  }
+  #banner
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+  }
+  #banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+  
 
 
+/* NAVBAR SECOND ENDED  */
+
+
+/* CAROUSEL STARTED  */
 .nav-carousel {
   display: flex;
   justify-content: center;
@@ -113,7 +275,7 @@ body {
 
 .nav-carousel-1 {
   width: 70%;
-  height: 210px;
+  height: auto;
 }
 
 .nav-carousel-2 {
@@ -121,7 +283,12 @@ body {
   justify-content: center;
   align-items: center;
   width: 30%;
-  height: 210px;
+  height: auto;
+  border: 1px solid #000;
+}
+.nav-carousel-img{
+  width: 100%;
+  height: auto;
 }
 
 .nav-carousel-2 img {
@@ -129,6 +296,26 @@ body {
   height: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  .nav-carousel-1 {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-item img 
+  {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .nav-carousel-2 {
+    display: none;
+  }
+}
+  
+
+
+/* CAROUSEL ENDED   */
 
 /* SLIDER  */
 .nav-slider {
@@ -138,18 +325,46 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  background-color: #fff0be;
+  flex-wrap: wrap;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .nav-slider-box {
-  width: 120px;
-  height: 150px;
+  width: 8%;
+  height: auto;
   padding: 5px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff0be;
 }
 
 .nav-slider-box img {
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .nav-slider {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .nav-slider-box {
+    width: 100px;
+    height: 120px;
+    padding: 5px;
+  }
+  
 }
 
 /* SLIDER END  */
@@ -203,7 +418,7 @@ body {
 
 .nav-deal-1 {
   width: 50%; /* Each image will take 50% of the container's width */
-  height: 200px;
+  height: auto;
   padding: 10px;
 }
 
@@ -218,6 +433,9 @@ body {
   width: 100%;
   height: auto;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-deal-text h3 {
@@ -248,7 +466,7 @@ body {
 }
 .nav-deal-2 {
   width: 50%; /* Each image will take 50% of the container's width */
-  height: 200px;
+  height: autopx;
   border-radius: 5px;
   padding: 5px;
   display: flex;
@@ -368,6 +586,7 @@ body {
   background-color: white;
   border-radius: 2px;
   position: relative;
+  margin: 10px 0px 10px 0px;
 }
 .card-img
 {
@@ -477,4 +696,17 @@ body {
   font-weight: 700;
   margin-right: 10px;
   margin-top: 10px;
+}
+.nav-women-pic
+{
+  width:13%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+}
+.nav-women-pic img{
+  width: 100%;
+  height: 100%;
 }
