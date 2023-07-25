@@ -90,25 +90,60 @@ body {
   display: none;
 }
 
-/* @media screen and (max-width: 700px)
-{
-  #nav
-  {
-    display: none;
-  }
-  .navbar{
-    display: none;
-  }
-} */
+
+.mobile {
+  /* border: 1px solid #000;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  background-color: white; */
+  display: none;
+}
+
 .navbar-for-mobile {
-  display: none;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  color: #4a4a4a;
 }
+@media screen and (max-width:800px)
+{
+    .mobile {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.4); /* Add the box-shadow property */
+  }
 
-.home {
-  display: none;
+  .navbar-for-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    color: #4a4a4a;
+
+  }
+  .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    
+  }
 }
-
 @media screen and (max-width: 786px) {
 
   #nav {
@@ -186,45 +221,9 @@ body {
     background-size: cover;
   }
 
-
-
 }
-@media screen and (max-width:500px) {
-  .navbar-for-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    background-color: white;
-    padding: 10px;
-    z-index: 9999;
-    /* Set a high z-index value */
-    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.5);
-    gap: 10px;
-  }
 
-  .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-    font-size: 12px;
-    color: #4a4a4a;
-  }
 
-  .home i {
-    font-size: 12px;
-    margin: 0px;
-    padding: 0px;
-    color: #4a4a4a;
-  }
-  
-}
 
 /* NAVBAR ENDED  */
 
@@ -669,7 +668,7 @@ body {
   align-items: center;
   background-color: white;
   border-radius: 2px;
-  position: relative;
+  /* position: relative; */
   margin: 10px 0px 10px 0px;
 }
 
