@@ -110,7 +110,7 @@ body {
   height: auto;
   color: #4a4a4a;
 }
-@media screen and (max-width:800px)
+@media screen and (max-width:500px)
 {
     .mobile {
     display: flex;
