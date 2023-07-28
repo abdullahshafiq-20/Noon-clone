@@ -2,13 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: 'Fira Sans', sans-serif;
   background-color: #f7f7fa;
+  overflow-x: hidden;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* NVABAR STARTED  */
 .navbar {
