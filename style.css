@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: 'Fira Sans', sans-serif;
   background-color: #f7f7fa;
   overflow-x: hidden;
+<<<<<<< HEAD
 }
 
   
@@ -16,6 +18,13 @@ body {
   width: 100%;
   height: auto;
 } */
+=======
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+>>>>>>> d72b1031ce5c90adba06071e3e23fda9c804bb7a
 
 /* NVABAR STARTED  */
 .navbar {
@@ -1212,6 +1221,7 @@ footer {
   }
 
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 786px) {
   body {
@@ -1219,3 +1229,5 @@ footer {
     box-sizing: border-box;
   }
 }
+=======
+>>>>>>> d72b1031ce5c90adba06071e3e23fda9c804bb7a
