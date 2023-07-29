@@ -7,8 +7,15 @@
 body {
   font-family: 'Fira Sans', sans-serif;
   background-color: #f7f7fa;
+  overflow-x: hidden;
 }
 
+  
+
+/* img{
+  width: 100%;
+  height: auto;
+} */
 
 /* NVABAR STARTED  */
 .navbar {
@@ -103,12 +110,13 @@ body {
 }
 
 .navbar-for-mobile {
-  display: flex;
+  display: none;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
-  color: #4a4a4a;
+  color: #4a4a4a; */
 }
 @media screen and (max-width:500px)
 {
@@ -1203,4 +1211,11 @@ footer {
     display: none;
   }
 
+}
+
+@media screen and (max-width: 786px) {
+  body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
 }
