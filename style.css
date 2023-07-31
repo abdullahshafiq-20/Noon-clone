@@ -9,22 +9,7 @@ body {
   font-family: 'Fira Sans', sans-serif;
   background-color: #f7f7fa;
   overflow-x: hidden;
-<<<<<<< HEAD
 }
-
-  
-
-/* img{
-  width: 100%;
-  height: auto;
-} */
-=======
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
->>>>>>> d72b1031ce5c90adba06071e3e23fda9c804bb7a
 
 /* NVABAR STARTED  */
 .navbar {
@@ -1221,13 +1206,9 @@ footer {
   }
 
 }
-<<<<<<< HEAD
-
-@media screen and (max-width: 786px) {
+/* @media screen and (max-width: 786px) {
   body {
     overflow-x: hidden;
     box-sizing: border-box;
   }
-}
-=======
->>>>>>> d72b1031ce5c90adba06071e3e23fda9c804bb7a
+} */
