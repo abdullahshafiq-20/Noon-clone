@@ -16,7 +16,7 @@ This project is a frontend clone of the Noon website, a popular e-commerce platf
 ## 🌐 Getting Started
 To view the cloned Noon website, you can either:
 1. Clone this repository to your local machine and open the `index.html` file in your preferred web browser.
-2. Access the project online through [GitHub Pages](insert-github-pages-link-here).
+2. Access the project online through [GitHub Pages](https://abdullahshafiq-20.github.io/Noon-clone/).
 
 ## 📝 Usage
 (Provide any additional information about how to use your project, especially if you've added interactivity or unique features.)
