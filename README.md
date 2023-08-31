@@ -24,7 +24,6 @@ To view the cloned Noon website, you can either:
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-(If you've used any resources, libraries, or received help from others, acknowledge them here.)
+
 
 
