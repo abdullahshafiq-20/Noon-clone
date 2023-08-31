@@ -27,9 +27,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 (If you've used any resources, libraries, or received help from others, acknowledge them here.)
 
-## 📧 Contact
-(Provide your contact information in case someone wants to reach out to you regarding the project.)
 
----
-
-*Note: Replace the placeholders in square brackets with actual content and URLs specific to your project.*
